@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="imapimgd">
+      <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\imapimgd.dll</HintPath>
+    </Reference>
+    <Reference Include="MapiBaseTypes">
+      <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\mapibasetypes.dll</HintPath>
+    </Reference>
+    <Reference Include="mapimgd">
+      <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\mapimgd.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
