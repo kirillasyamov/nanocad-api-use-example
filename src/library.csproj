@@ -13,12 +13,15 @@
   <ItemGroup>
     <Reference Include="imapimgd">
       <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\imapimgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="MapiBaseTypes">
       <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\mapibasetypes.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="mapimgd">
       <HintPath>..\..\..\..\Program Files\Nanosoft\nanoCAD x64 23.0\NanoSPDS\bin\mapimgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 
