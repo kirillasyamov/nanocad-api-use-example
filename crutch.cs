@@ -40,7 +40,7 @@ namespace library
                         var idStart = reader.GetInt16(1);
                         var idEnd = reader.GetInt16(2);
 
-                        List<string> subList = points.GetRange(idStart - 1, idEnd - idStart);
+                        List<string> subList = points.GetRange(idStart - 1, idEnd - idStart + 1);
                         string lineString = string.Join(", ", subList);
 
                         code += "new List<Point3d>{" + lineString + "} ,";
